@@ -8,7 +8,10 @@ function showTab(id){
 // === НОВЕ: карта «ефективних годин» для розрахунку продуктивності ===
 function mapEffectiveHours(h){
   if (h === 12) return 11;
+  if (h === 11) return 10;
+  if (h === 10) return 9;
   if (h === 8)  return 7.5;
+  if (h === 7)  return 6.5;
   if (h === 6)  return 5.5;
   if (h === 4)  return 4;
   return h; // за замовчуванням — без зміни
