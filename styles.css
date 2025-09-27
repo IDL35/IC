@@ -1,6 +1,6 @@
 body {
     background-color: #000;
-    color: #0f0;
+    color: #00ffff;
     font-family: Arial, sans-serif;
     max-width: 100%;
     padding: 10px;
@@ -20,7 +20,7 @@ label {
 .top-panel {
     display: flex;
     justify-content: space-around;
-    background: #111;
+    background: #ffccff;
     border-bottom: 1px solid #222;
     padding: 4px;
     position: sticky;
@@ -28,8 +28,8 @@ label {
     z-index: 100;
 }
 .top-panel button {
-    background: #111;
-    color: #0f0;
+    background: #ffccff;
+    color: #00ffff;
     border: 1px solid #222;
     font-size: 12px;
     padding: 5px 8px;
@@ -43,7 +43,7 @@ section.active { display:block; }
 input, button {
     font-size: 12px;
     background-color: #303030;
-    color: #0f0;
+    color: #00ffff;
     border: none;
     border-radius: 5px;
     padding: 8px;
@@ -63,7 +63,7 @@ button:hover {
 #prodResult, #weekResult, #monthlySummary, #weeklySummary, #totalMoney {
     margin-top: 20px;
     font-size: 1.2rem;
-    color: #ff0000;
+    color: #ff0066;
     text-align: center;
     font-weight: bold;
 }
@@ -71,7 +71,7 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
-    background-color: #111;
+    background-color: #ffccff;
     font-size: 10px;
 }
 th, td {
